@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="textTiny">12sp</dimen>
+    <dimen name="textSmall">14sp</dimen>
+    <dimen name="textMedium">18sp</dimen>
+    <dimen name="textLarge">22sp</dimen>
+
+    <dimen name="textNormal">@dimen/textMedium</dimen>
+    <dimen name="textSubtitle">@dimen/textMedium</dimen>
+    <dimen name="textTitle">@dimen/textLarge</dimen>
+
+    <dimen name="textPadding">10dp</dimen>
+
+    <dimen name="tableItemPadding">16dp</dimen>
+    <dimen name="dialogPadding">16dp</dimen>
+    <dimen name="dialogTableItemPadding">10dp</dimen>
+
+    <dimen name="longTextInputWidth">300dp</dimen>
+    <dimen name="medTextInputWidth">200dp</dimen>
+    <dimen name="shortTextInputWidth">100dp</dimen>
+
+    <!-- Copied from Android source, because custom styling is broken. -->
+
+    <!-- Dialog title height -->
+    <dimen name="alert_dialog_title_height">32dip</dimen>
+    <!-- Dialog button bar height -->
+    <dimen name="alert_dialog_button_bar_height">24dip</dimen>
+</resources>

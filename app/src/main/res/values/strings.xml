@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jesse Segall\'s Chat App (Web)</string>
+
+    <!-- Preferences UI -->
+    <string name="user_name_pref">Username</string>
+    <string name="user_name_summary">Name by which user is identified in chat messages</string>
+    <string name="user_name_default">*nobody*</string>
+    <string name="server_uri_pref">ServerUri</string>
+    <string name="server_uri_summary">Uri for chat server</string>
+    <string name="base_uri">http://10.0.2.2:8080/</string>
+    <string name="server_uri_default">@string/base_uri</string>
+    <string name="app_id_pref">App ID</string>
+    <string name="app_id_summary">UUID for this installation of the app</string>
+    <string name="sender_id_pref">Sender ID</string>
+    <string name="sender_id_summary">ID for this client on the chat server</string>
+
+    <!-- Notifications for chat background services -->
+    <string name="chat_channel_id">chat</string>
+    <string name="chat_channel_name">Chat Background</string>
+    <string name="chat_channel_description">Notifications from chat background services</string>
+
+    <integer name="register_notification_id">1</integer>
+    <string name="register_notification_title">Registration</string>
+    <string name="register_notification_message">Registering with the chat server.</string>
+    <string name="register_ticker_text">Registering....</string>
+
+    <string name="latitude">40.744906</string>
+    <string name="longitude">-74.023937</string>
+
+    <string name="already_taken">Chat name already taken!</string>
+    <string name="register_success">Successfully registered!</string>
+    <string name="register_necessary">Registration required!</string>
+
+    <!-- String literals in the UI -->
+
+    <string name="destination_host_default">10.0.2.2</string>
+    <string name="destination_port_default">6666</string>
+    <string name="destination_host">Destination Host</string>
+    <string name="target_host_default">10.0.2.2</string>
+    <string name="destination_port">Destination Port</string>
+    <string name="target_port_default">6666</string>
+    <string name="sender_name">Sender Name:</string>
+    <string name="sender_name_default">@string/user_name_default</string>
+    <string name="message_edit_text">Type your message here.</string>
+    <string name="send_label">SEND</string>
+    <string name="register_label">REGISTER</string>
+    <string name="peers_label">PEERS</string>
+    <string name="title_activity_chatserver">ChatServer</string>
+    <string name="title_activity_view_peers">ViewPeers</string>
+    <string name="title_activity_view_peer">ViewPeer</string>
+    <string name="title_activity_register">Register</string>
+
+    <string name="messages_heading">Sender: %1$s [Chatroom: %2$s]</string>
+
+    <string name="chat_user_name">Chat Name:</string>
+    <string name="chat_room">Chat Room:</string>
+    <string name="chat_room_text">Chat Room</string>
+
+    <string name="chat_server">Chat Server:</string>
+    <string name="chat_server_text">Chat Server</string>
+
+    <string name="chat_name">User Name:</string>
+    <string name="chat_name_text">User Name</string>
+
+    <string name="default_user_name">*nobody*</string>
+    <string name="default_chat_room">_default</string>
+
+    <string name="chatrooms_title">Chat Rooms</string>
+    <string name="missing_chat_room">No chat room specified!</string>
+    <string name="missing_chat_text">No chat message specified!</string>
+    <string name="missing_chat_room_name">Missing name for new chat room!</string>
+
+    <string name="peers_title">Chat Peers</string>
+
+    <!-- Dialogs -->
+    <string name="add">ADD</string>
+    <string name="send">SEND</string>
+    <string name="cancel">CANCEL</string>
+
+    <string name="title_peers">List of Peers</string>
+    <string name="title_peer_details">Chat Peer Details</string>
+    <string name="title_peer_messages">Messages</string>
+
+    <string name="view_user_name">User Name: %s</string>
+    <string name="view_timestamp">Last Seen: %s</string>
+    <string name="view_location">GPS: %1$f, %2$f</string>
+
+    <!-- Fake HTTP responses -->
+    <string name="http_response_unavailable">Service Unavailable</string>
+    <string name="http_response_unknown">Client does not understand</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Menu for the main ChatActivity activity. -->
+
+    <item
+        android:id="@+id/register"
+        android:title="@string/register_label"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/peers"
+        android:title="@string/peers_label"
+        app:showAsAction="ifRoom" />
+
+</menu>
